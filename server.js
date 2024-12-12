@@ -14,7 +14,7 @@ app.post("/api/all", async (req, res) => {
 
   try {
     const response = await fetch(
-      `https://b2b-api.avatara.id/metered/conversations/2q6QBGx7CjBknvqt6VVMiOtebfu/chat`,
+      `https://b2b-api.avatara.id/metered/conversations/2q6QBFasSV7EPYMhEquGsSjolPI/chat`,
       {
         method: "POST",
         headers: {
