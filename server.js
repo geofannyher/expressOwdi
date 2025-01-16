@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 
 app.post("/api/all", async (req, res) => {
   const { message } = req.body;
-
+  console.log(message)
   try {
     const response = await fetch(
       `https://b2b-api.avatara.id/metered/conversations/2q6QBFasSV7EPYMhEquGsSjolPI/chat`,
